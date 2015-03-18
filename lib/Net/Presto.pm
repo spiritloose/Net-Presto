@@ -5,7 +5,7 @@ use Carp qw(confess);
 use Scalar::Util qw(blessed);
 use JSON::XS;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 use Net::Presto::Statement;
 
