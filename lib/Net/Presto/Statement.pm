@@ -206,7 +206,7 @@ Wait until the query is completed.
 
 =head2 C<< $sth->poll($callback) :Void >>
 
-Do l<$callback> on each HTTP requests.
+Do I<$callback> on each HTTP requests.
 
 =head1 SEE ALSO
 

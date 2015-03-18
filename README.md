@@ -11,7 +11,7 @@ Net::Presto - Presto client library for Perl
         catalog   => 'hive',
         schema    => 'mydb',
         user      => 'scott',
-        source    => 'myscript',   $ defaults to Net::Presto/$VERSION
+        source    => 'myscript',   # defaults to Net::Presto/$VERSION
         time_zone => 'US/Pacific', # optional
         language  => 'English',    # optional
     );
@@ -45,7 +45,7 @@ Net::Presto is a client library for Perl to run queries on Presto.
 
 Creates and return a new Net::Presto instance with options.
 
-l<%options> might be:
+_%options_ might be:
 
 - server
 

@@ -56,9 +56,14 @@
    },
    "release_status" : "unstable",
    "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/spiritloose/Net-Presto/issues"
+      },
+      "homepage" : "https://github.com/spiritloose/Net-Presto",
       "repository" : {
          "type" : "git",
-         "url" : "git://bitbucket.org/spiritloose/net-presto.git"
+         "url" : "git://github.com/spiritloose/Net-Presto.git",
+         "web" : "https://github.com/spiritloose/Net-Presto"
       }
    },
    "version" : "0.01"
