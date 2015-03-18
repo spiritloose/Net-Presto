@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Presto client library for Perl",
    "author" : [
       "Jiro Nishiguchi <jiro@cpan.org>"
    ],
@@ -42,6 +42,9 @@
       },
       "runtime" : {
          "requires" : {
+            "Furl" : "0",
+            "JSON::XS" : "0",
+            "Moo" : "0",
             "perl" : "5.008001"
          }
       },
@@ -52,5 +55,11 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "repository" : {
+         "type" : "git",
+         "url" : "git://bitbucket.org/spiritloose/net-presto.git"
+      }
+   },
    "version" : "0.01"
 }
