@@ -75,7 +75,7 @@ sub column_names {
 
 sub poll {
     my ($self, $cb) = @_;
-    until ($self->state eq 'FINISHED') {
+    until ($self->state eq 'FINISHED' && !$self->res->{nextUri} ) {
         my $url = $self->res->{nextUri} or return;
         my $res = $self->_request(get => $url);
         my @ret = $cb->($res) if $cb;
